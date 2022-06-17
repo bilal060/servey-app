@@ -10,7 +10,7 @@ export class ServeyTwoComponent implements OnInit {
   radioValue:any
 
   constructor() { 
-    this.radioValue="quote"
+    this.radioValue="residential"
   }
 
   checkedRadio = (value:any) => {

@@ -12,7 +12,10 @@
     justify-content: center;
 }
 .checkbox-item {
-    margin: 20px 30px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .checkbox-group label {
     width: 150px;
@@ -23,6 +26,9 @@
     justify-content: center;
     margin: 0px 0px 20px;
     cursor: pointer;
+}
+.checkbox-group label svg path {
+    fill: #3498DB;
 }
 .checkbox-group label.active {
     background-color: #3498DB;

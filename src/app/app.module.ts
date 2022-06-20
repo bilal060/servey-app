@@ -8,6 +8,7 @@ import { RightFormComponent } from './components/right-form/right-form.component
 import { HomeComponent } from './home/home.component';
 import { ServeyOneComponent } from './components/servey-one/servey-one.component';
 import { ServeyTwoComponent } from './components/servey-two/servey-two.component';
+import { ServeyFourComponent } from './components/servey-four/servey-four.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { ServeyTwoComponent } from './components/servey-two/servey-two.component
     HomeComponent,
     ServeyOneComponent,
     ServeyTwoComponent,
+    ServeyFourComponent,
   ],
   imports: [
     BrowserModule,

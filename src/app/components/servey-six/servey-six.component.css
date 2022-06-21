@@ -66,13 +66,13 @@
     z-index: 100;
 }
 .location-form .input-group .icon-home{
-    background: url("../../assets/images/home-icon.png") ;
+    background: url("/assets/images/home-icon.png") ;
 }
 .location-form .input-group .icon-web {
-    background: url("../../assets/images/web-icon.png") ;
+    background: url("/assets/images/web-icon.png") ;
 }
 .location-form .input-group .icon-location {
-    background: url("../../assets/images/location-icon.png") ;
+    background: url("/assets/images/location-icon.png") ;
 }
 .btn-next {
     background: #3498DB;

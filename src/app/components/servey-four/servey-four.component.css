@@ -1,0 +1,107 @@
+.form-inner {
+    text-align: center;
+    max-width: 400px;
+}
+.small{
+    padding-right: 60%;
+}
+
+.heading-top {
+    font-size: 34px;
+    font-weight: 700;
+}
+
+.checkbox-item {
+    margin: 10px 20px;
+    
+}
+
+ .btn-next {
+    border: solid 2px  #3498DB;
+    background: #3498DB;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    width: 100%;
+    margin: 3px;
+}
+
+.btn-back{
+    border: solid 2px  #3498DB;
+    background: white;
+    color: #3498DB;
+    font-size: 16px;
+    font-weight: 700;
+    width: 100%;
+    border: 4px solid #3498DB;
+    border-radius: 10px;
+}
+
+
+
+.image4{
+    
+    height: 150px;
+    width: 150px;
+    padding: 15px;
+    border: solid 2px  #3498DB;
+}
+
+
+.image1{
+    border: solid 2px  #3498DB;
+    height: 150px;
+    width: 150px;
+    padding: 15px;
+}
+
+.image2{
+    border: solid 2px  #3498DB;
+    height: 150px;
+    width: 150px;
+    padding: 15px;
+}
+
+.image3{
+    border: solid 2px  #3498DB;
+    height: 150px;
+    width: 150px;
+    padding: 15px;
+}
+.lares{
+padding: 1px;
+}
+p{
+    margin-top: 8px;
+}
+
+.checkbox-group label {
+    width: 150px;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.checkbox-group label.active {
+    background-color: #3498DB;
+}
+
+.checkbox-group label.active svg rect,
+.checkbox-group label.active svg  circle{
+    
+    stroke: #ffffff;
+}
+.checkbox-group label.active svg path,
+.checkbox-group label.active svg  mask{
+    stroke: #ffffff;
+    fill: #ffffff;
+}
+.checkbox-group label input {
+    display: none;
+}
+.checkbox-group {
+    align-items: center;
+    justify-content: center;
+}

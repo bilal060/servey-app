@@ -66,13 +66,13 @@
     z-index: 100;
 }
 .contact-form .input-group .icon-user {
-    background: url("../../assets/images/person-icon.png") ;
+    background: url("/assets/images/person-icon.png") ;
 }
 .contact-form .input-group .icon-email {
-    background: url("../../assets/images/envelope-icon.png") ;
+    background: url("/assets/images/envelope-icon.png") ;
 }
 .contact-form .input-group .icon-phone {
-    background: url("../../assets/images/phone-icon.png") ;
+    background: url("/assets/images/phone-icon.png") ;
 }
 .contact-form small {
     color: #696969;

@@ -1,107 +1,104 @@
 .form-inner {
-    text-align: center;
     max-width: 400px;
 }
-.small{
-    padding-right: 60%;
-}
-
 .heading-top {
     font-size: 34px;
     font-weight: 700;
 }
-
+.checkbox-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .checkbox-item {
-    margin: 10px 20px;
-    
+    margin: 20px 30px;
 }
-
- .btn-next {
-    border: solid 2px  #3498DB;
-    background: #3498DB;
-    border-radius: 10px;
-    color: #fff;
-    font-size: 16px;
-    font-weight: 700;
-    width: 100%;
-    margin: 3px;
-}
-
-.btn-back{
-    border: solid 2px  #3498DB;
-    background: white;
-    color: #3498DB;
-    font-size: 16px;
-    font-weight: 700;
-    width: 100%;
-    border: 4px solid #3498DB;
-    border-radius: 10px;
-}
-
-
-
-.image4{
-    
-    height: 150px;
-    width: 150px;
-    padding: 15px;
-    border: solid 2px  #3498DB;
-}
-
-
-.image1{
-    border: solid 2px  #3498DB;
-    height: 150px;
-    width: 150px;
-    padding: 15px;
-}
-
-.image2{
-    border: solid 2px  #3498DB;
-    height: 150px;
-    width: 150px;
-    padding: 15px;
-}
-
-.image3{
-    border: solid 2px  #3498DB;
-    height: 150px;
-    width: 150px;
-    padding: 15px;
-}
-.lares{
-padding: 1px;
-}
-p{
-    margin-top: 8px;
-}
-
 .checkbox-group label {
     width: 150px;
     height: 150px;
+    border: 3px solid #5fa3de;
+    display: flex;
     align-items: center;
     justify-content: center;
+    margin: 0px 0px 20px;
     cursor: pointer;
 }
-
 .checkbox-group label.active {
     background-color: #3498DB;
 }
-
-.checkbox-group label.active svg rect,
-.checkbox-group label.active svg  circle{
-    
-    stroke: #ffffff;
-}
-.checkbox-group label.active svg path,
-.checkbox-group label.active svg  mask{
-    stroke: #ffffff;
+.checkbox-group label.active svg path {
     fill: #ffffff;
 }
 .checkbox-group label input {
     display: none;
 }
-.checkbox-group {
+.btn-next {
+    background: #3498DB;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    width: 100%;
+}
+.contact-form .form-row {
+    margin: 20px -15px;
+}
+.contact-form ::placeholder, .contact-form select {
+    color: #696969;
+    font-size: 14px;
+}
+.contact-form .form-control {
+    box-shadow: none;
+    border: 1px solid #CBCBCB;
+    margin: 0px 0px 20px;
+    padding: 12px 20px 12px 45px;
+    position: relative;
+    z-index: 99;
+}
+.contact-form .input-group span.icon{
+    position: absolute;
+    content: "";
+    left: 10px;
+    top: 6px;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 18px 15px;
+    transform: scale(0.8);
+    z-index: 100;
+}
+.contact-form .input-group .icon-user {
+    background: url("../../assets/images/person-icon.png") ;
+}
+.contact-form .input-group .icon-email {
+    background: url("../../assets/images/envelope-icon.png") ;
+}
+.contact-form .input-group .icon-phone {
+    background: url("../../assets/images/phone-icon.png") ;
+}
+.contact-form small {
+    color: #696969;
+    font-size: 14px;
+}
+.contact-form .button-group {
+    margin-top: 45px;
+}
+
+.contact-form .inline-checkbox {
+    display: inline-flex;
     align-items: center;
-    justify-content: center;
+}
+.contact-form .inline-checkbox small {
+    display: inline-block;
+    padding-left: 10px;
+}
+.contact-form .inline-checkbox input {
+    transform: scale(1.5);
+} 
+.contact-form .btn-cancel {
+    background-color: #EC7063;
+}
+
+@media (max-width: 768px) {
+    .form-inner {
+        margin-top: 50px;
+    }
 }

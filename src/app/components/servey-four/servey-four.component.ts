@@ -7,16 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ServeyFourComponent implements OnInit {
 
-  radioValue: any
-
-  constructor() { 
-    this.radioValue="icon4"
-  }
-
-  checkedRadio = (value: any) => {
-    this.radioValue = value;
-  }
-
+  constructor() { }
 
   ngOnInit(): void {
   }

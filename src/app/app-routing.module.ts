@@ -1,10 +1,6 @@
 import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
-
-import { AppComponent } from './app.component';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { LeftImageComponent } from './components/left-image/left-image.component';
-import { RightFormComponent } from './components/right-form/right-form.component';
+import { CommonModule } from '@angular/common';
+import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { ServeyOneComponent } from './components/servey-one/servey-one.component';
 import { ServeyTwoComponent } from './components/servey-two/servey-two.component';
@@ -14,31 +10,25 @@ import { ServeyFiveComponent } from './components/servey-five/servey-five.compon
 import { ServeySixComponent } from './components/servey-six/servey-six.component';
 import { ServeySevenComponent } from './components/servey-seven/servey-seven.component';
 import { ServeyEightComponent } from './components/servey-eight/servey-eight.component';
-import { AppRoutingModule } from './app-routing.module';
 import { ServeyNineComponent } from './components/servey-nine/servey-nine.component';
+const routes: Routes = [
+  { path: 'nine', component: ServeyNineComponent },
+  { path: 'one', component: ServeyOneComponent },
+  { path: 'two', component: ServeyTwoComponent },
+  { path: 'three', component: ServeyThreeComponent },
+  { path: 'four', component: ServeyFourComponent },
+  { path: 'five', component: ServeyFiveComponent },
+  { path: 'six', component: ServeySixComponent },
+  { path: 'seven', component: ServeySevenComponent },
+  { path: 'eight', component: ServeyEightComponent },
+];
+
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    LeftImageComponent,
-    RightFormComponent,
-    HomeComponent,
-    ServeyOneComponent,
-    ServeyTwoComponent,
-    ServeyThreeComponent,
-    ServeyFourComponent,
-    ServeyFiveComponent,
-    ServeySixComponent,
-    ServeySevenComponent,
-    ServeyEightComponent,
-    ServeyNineComponent
-  ],
+  declarations: [],
   imports: [
-    BrowserModule,
-    BrowserAnimationsModule,
-    AppRoutingModule
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
+    CommonModule,
+    RouterModule.forRoot(routes)
+  ]
 })
-export class AppModule { }
+export class AppRoutingModule { }

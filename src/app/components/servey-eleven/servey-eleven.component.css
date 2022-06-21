@@ -64,12 +64,14 @@
 }
 .checkbox-group label svg path {
     fill: #3498DB;
+    stroke: #3498DB;
 }
 .checkbox-group label.active {
     background-color: #3498DB;
 }
 .checkbox-group label.active svg path {
     fill: #ffffff;
+    stroke: #fff;
 }
 .checkbox-group label.active svg circle,
 .checkbox-group label.active svg rect {
@@ -77,6 +79,44 @@
 }
 .checkbox-group label input {
     display: none;
+}
+.radio-group label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin: 10px 0px;
+    position: relative;
+}
+.radio-group .radio-item p {
+    margin: 0 15px;
+}
+.radio-group label span.radio {
+    width: 18px;
+    height: 18px;
+    border: 2px solid #3498DB;
+    background-color: transparent;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.radio-group label input {
+    display: none;
+}
+.radio-group label input:checked + span.radio::before {
+    position: absolute;
+    content: "";
+    left: 0.5px;
+    top: 0.5px;
+    border: 2px solid #3498DB;
+    background-color: #3498DB;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .btn-next {
     background: #3498DB;

@@ -2,6 +2,9 @@
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+.text-left {
+    text-align: left;
+}
 .row-main {
     display: flex;
     align-items: center;

@@ -39,9 +39,37 @@
 .checkbox-group label input {
     display: none;
 }
+.location-form .form-row {
+    margin: 20px -15px;
+}
+.location-form ::placeholder, .location-form select {
+    color: #696969;
+    font-size: 14px;
+}
+.location-form .form-control {
+    box-shadow: none;
+    border: 1px solid #CBCBCB;
+    margin: 0px 0px 20px;
+    padding: 12px 20px 12px 45px;
+    position: relative;
+    z-index: 99;
+}
+.location-form .input-group span.icon{
+    position: absolute;
+    content: "";
+    left: 10px;
+    top: 6px;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 18px 15px;
+    transform: scale(0.8);
+    z-index: 100;
+}
+.location-form .input-group .icon-cctv {
+    background: url("/assets/images/cctv-icon.png") ;
+}
 .btn-next {
     background: #3498DB;
-    border: 2px solid #3498DB;
     color: #fff;
     font-size: 16px;
     font-weight: 700;
@@ -54,12 +82,6 @@
     font-size: 16px;
     font-weight: 700;
     width: 100%;
-}
-.btn-next:hover {
-    background: transparent;
-    border: 2px solid #3498DB;
-    color: #3498DB;
-
 }
 .btn-back:hover {
     background-color: #3498DB;

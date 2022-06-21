@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-servey-nine',
-  templateUrl: './servey-nine.component.html',
-  styleUrls: ['./servey-nine.component.css']
+  selector: 'app-servey-eleven',
+  templateUrl: './servey-eleven.component.html',
+  styleUrls: ['./servey-eleven.component.css']
 })
-export class ServeyNineComponent implements OnInit {
+export class ServeyElevenComponent implements OnInit {
 
   radioValue:any
 

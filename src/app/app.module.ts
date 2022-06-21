@@ -16,6 +16,16 @@ import { ServeySevenComponent } from './components/servey-seven/servey-seven.com
 import { ServeyEightComponent } from './components/servey-eight/servey-eight.component';
 import { AppRoutingModule } from './app-routing.module';
 import { ServeyNineComponent } from './components/servey-nine/servey-nine.component';
+import { ServeyElevenComponent } from './components/servey-eleven/servey-eleven.component';
+import { ServeyTenComponent } from './components/servey-ten/servey-ten.component';
+import { ServeyTwelveComponent } from './components/servey-twelve/servey-twelve.component';
+import { ServeyThirteenComponent } from './components/servey-thirteen/servey-thirteen.component';
+import { ServeyFourteenComponent } from './components/servey-fourteen/servey-fourteen.component';
+import { ServeyFifteenComponent } from './components/servey-fifteen/servey-fifteen.component';
+import { ServeySixteenComponent } from './components/servey-sixteen/servey-sixteen.component';
+import { ServeySeventeenComponent } from './components/servey-seventeen/servey-seventeen.component';
+import { ServeyEighteenComponent } from './components/servey-eighteen/servey-eighteen.component';
+import { ServeyNineteenComponent } from './components/servey-nineteen/servey-nineteen.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +41,17 @@ import { ServeyNineComponent } from './components/servey-nine/servey-nine.compon
     ServeySixComponent,
     ServeySevenComponent,
     ServeyEightComponent,
-    ServeyNineComponent
+    ServeyNineComponent,
+    ServeyElevenComponent,
+    ServeyTenComponent,
+    ServeyTwelveComponent,
+    ServeyThirteenComponent,
+    ServeyFourteenComponent,
+    ServeyFifteenComponent,
+    ServeySixteenComponent,
+    ServeySeventeenComponent,
+    ServeyEighteenComponent,
+    ServeyNineteenComponent
   ],
   imports: [
     BrowserModule,

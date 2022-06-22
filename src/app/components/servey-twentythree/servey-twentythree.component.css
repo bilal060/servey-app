@@ -51,9 +51,6 @@
     border: 1px solid #CBCBCB;
     margin: 0px 0px 20px;
     padding: 12px 20px 12px 45px;
-    border-radius: 12px;
-    border-top-left-radius: 12px !important;
-    border-bottom-left-radius: 12px !important;
     position: relative;
     z-index: 99;
 }
@@ -68,8 +65,30 @@
     transform: scale(0.8);
     z-index: 100;
 }
-.location-form .input-group .icon-cctv {
-    background: url("/assets/images/cctv-icon.png") ;
+.location-form .input-group .icon-user {
+    background: url("/assets/images/person-icon.png") ;
+}
+.location-form .input-group .icon-email {
+    background: url("/assets/images/envelope-icon.png") ;
+}
+.location-form .input-group .icon-phone {
+    background: url("/assets/images/phone-icon.png") ;
+}
+.location-form .input-group .icon-home{
+    background: url("/assets/images/home-icon.png") ;
+}
+.location-form .input-group .icon-web {
+    background: url("/assets/images/web-icon.png") ;
+}
+.location-form .input-group .icon-location {
+    background: url("/assets/images/location-icon.png") ;
+}
+.checkbox-inline {
+    display: flex;
+    align-items: center;
+}
+.checkbox-inline p {
+    margin: 0;
 }
 .btn-next {
     background: #3498DB;

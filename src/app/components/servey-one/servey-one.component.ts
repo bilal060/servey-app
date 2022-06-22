@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { FormGroup, FormControl, Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-servey-one',
@@ -8,9 +9,13 @@ import { Component, OnInit } from '@angular/core';
 export class ServeyOneComponent implements OnInit {
   
   radioValue: any
+  formOne: FormGroup;
 
   constructor() { 
-    this.radioValue="quote"
+    this.radioValue="quote",
+    this.formOne = new FormGroup({
+      quote: new FormControl(null, Validators.required),
+    });
   }
 
   checkedRadio = (value: any) => {
@@ -18,6 +23,10 @@ export class ServeyOneComponent implements OnInit {
   }
 
   ngOnInit(): void {
+  }
+
+  get Qoute() {
+    return this.formOne.get('quote');
   }
 
 }

@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { ReactiveFormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -26,6 +27,11 @@ import { ServeySixteenComponent } from './components/servey-sixteen/servey-sixte
 import { ServeySeventeenComponent } from './components/servey-seventeen/servey-seventeen.component';
 import { ServeyEighteenComponent } from './components/servey-eighteen/servey-eighteen.component';
 import { ServeyNineteenComponent } from './components/servey-nineteen/servey-nineteen.component';
+import { ServeyTwentyComponent } from './components/servey-twenty/servey-twenty.component';
+import { ServeyTwentyoneComponent } from './components/servey-twentyone/servey-twentyone.component';
+import { ServeyTwentytwoComponent } from './components/servey-twentytwo/servey-twentytwo.component';
+import { ServeyTwentythreeComponent } from './components/servey-twentythree/servey-twentythree.component';
+import { ServeyTwentyfourComponent } from './components/servey-twentyfour/servey-twentyfour.component';
 
 @NgModule({
   declarations: [
@@ -51,11 +57,21 @@ import { ServeyNineteenComponent } from './components/servey-nineteen/servey-nin
     ServeySixteenComponent,
     ServeySeventeenComponent,
     ServeyEighteenComponent,
-    ServeyNineteenComponent
+    ServeyNineteenComponent,
+    ServeyTwentyComponent,
+    ServeyTwentyoneComponent,
+    ServeyTwentytwoComponent,
+    ServeyTwentythreeComponent,
+    ServeyTwentyfourComponent
   ],
   imports: [
     BrowserModule,
+    
     BrowserAnimationsModule,
+    AppRoutingModule,
+    ReactiveFormsModule
+  ],
+  exports: [
     AppRoutingModule
   ],
   providers: [],

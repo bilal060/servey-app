@@ -1,6 +1,3 @@
-.form-inner {
-    max-width: 400px;
-}
 .heading-top {
     font-weight: 700;
     font-size: 36px;
@@ -23,33 +20,6 @@
     line-height: 24px;
     text-align: center;
     color: #696969;
-}
-.checkbox-group label {
-    width: 150px;
-    height: 150px;
-    border: 2px solid #3498DB;
-    border-radius: 5px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 10px;
-    cursor: pointer;
-}
-.checkbox-group label.active {
-    background-color: #3498DB;
-}
-.checkbox-group label svg path {
-    fill: #3498DB;
-} 
-.checkbox-group label.active svg path {
-    fill: #ffffff;
-}
-.checkbox-group label.active svg rect,
-.checkbox-group label.active svg mask {
-    stroke: #fff;
-}
-.checkbox-group label input {
-    display: none;
 }
 
 

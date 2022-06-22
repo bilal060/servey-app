@@ -1,10 +1,10 @@
-<div class="form-inner location-form">
+<div class="form-inner location-form my-5">
     <h3 class="heading-top">Pedestrian access</h3>
     <p>Use the options bellow to choose what type of hardware will be used.</p>
 
     <small> Available Hardware </small>
-    <div class="checkbox-group row">
-        <div class="checkbox-item col-6">
+    <div class="checkbox-group mt-4">
+        <div class="checkbox-item">
             <label for="radioOne" [class]="radioValue === 'residential' ? 'active':''"  (click)="checkedRadio('residential')">
                 <input value="residential" id="radioOne" type="radio" name="radio">
                 <svg width="113" height="87" viewBox="0 0 113 87" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -19,7 +19,7 @@
             <p>Lares (indoor) tablet</p>
         </div>
 
-        <div class="checkbox-item col-6">
+        <div class="checkbox-item">
             <label for="radioTwo"  [class]="radioValue === 'commercial' ? 'active' :''" (click)="checkedRadio('commercial')">
                 <input value="commercial"  id="radioTwo" type="radio" name="radio">
                 <svg width="128" height="62" viewBox="0 0 128 62" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -38,7 +38,7 @@
             <p>Lares (outdoor) kit</p> 
         </div>
 
-        <div class="checkbox-item col-6">
+        <div class="checkbox-item">
             <label for="radioThree"  [class]="radioValue === 'office' ? 'active' :''" (click)="checkedRadio('office')">
                 <input value="office"  id="radioThree" type="radio" name="radio">
                 <svg width="93" height="96" viewBox="0 0 93 96" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -48,7 +48,7 @@
             <p>Office Building</p> 
         </div>
 
-        <div class="checkbox-item col-6">
+        <div class="checkbox-item">
             <label for="radioFour"  [class]="radioValue === 'factory' ? 'active' :''" (click)="checkedRadio('factory')">
                 <input value="factory"  id="radioFour" type="radio" name="radio">
                 <svg width="131" height="44" viewBox="0 0 131 44" fill="none" xmlns="http://www.w3.org/2000/svg">

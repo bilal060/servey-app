@@ -1,15 +1,18 @@
 <div class="main-content">
-<div class="row mx-0 ps-0 align-items-center justify-content-center">
-    <div class="col-lg-6 ps-0 pe-lg-0">
-        <div class="column-left">
-            <app-left-image></app-left-image>
-        </div>
+  <div class="row parent-row mx-0 px-lg-0 justify-content-center">
+    <div class="col-lg-7 col-adjust-1 ps-lg-0 pe-lg-0">
+      <div class="column-left">
+        <app-left-image></app-left-image>
+      </div>
     </div>
-    <div class="col-lg-6">
-        <div class="column-right">
+    <div class="col-lg-5 col-adjust-2">
+      <div class="column-right">
+        <div class="row mx-0">
+          <div class="col-xl-9 mx-auto mb-lg-0 mb-5">
             <router-outlet> </router-outlet>
-            <!-- <app-right-form></app-right-form> -->
+          </div>
         </div>
+      </div>
     </div>
-    </div>
+  </div>
 </div>

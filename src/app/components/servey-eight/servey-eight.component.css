@@ -1,10 +1,6 @@
 .form-inner {
     max-width: 400px;
 }
-.heading-top {
-    font-size: 34px;
-    font-weight: 700;
-}
 .checkbox-group {
     display: flex;
     align-items: center;

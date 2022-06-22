@@ -3,8 +3,7 @@ import { FormGroup, FormControl, Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-servey-one',
-  templateUrl: './servey-one.component.html',
-  styleUrls: ['./servey-one.component.css']
+  templateUrl: './servey-one.component.html'
 })
 export class ServeyOneComponent implements OnInit {
   
@@ -14,7 +13,7 @@ export class ServeyOneComponent implements OnInit {
   constructor() { 
     this.radioValue="quote",
     this.formOne = new FormGroup({
-      quote: new FormControl(null, Validators.required),
+      Qoutee: new FormControl(null, Validators.required),
     });
   }
 

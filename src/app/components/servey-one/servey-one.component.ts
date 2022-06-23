@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormControl, Validators } from '@angular/forms';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-servey-one',
@@ -9,8 +10,9 @@ export class ServeyOneComponent implements OnInit {
   
   radioValue: any
   formOne: FormGroup;
+  routerLink: any
 
-  constructor() { 
+  constructor(private router: Router) { 
     this.radioValue="quote",
     this.formOne = new FormGroup({
       Qoutee: new FormControl(null, Validators.required),
@@ -19,6 +21,11 @@ export class ServeyOneComponent implements OnInit {
 
   checkedRadio = (value: any) => {
     this.radioValue = value;
+  }
+
+  setNext() {
+    localStorage.setItem("optionValue", this.radioValue);
+    this.router.navigate(['/', 'step-three'])
   }
 
   ngOnInit(): void {

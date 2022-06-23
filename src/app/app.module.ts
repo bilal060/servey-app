@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { ReactiveFormsModule } from '@angular/forms';
+import { RecaptchaModule } from "ng-recaptcha";
 
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -69,7 +70,8 @@ import { ServeyTwentyfourComponent } from './components/servey-twentyfour/servey
     
     BrowserAnimationsModule,
     AppRoutingModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    RecaptchaModule,
   ],
   exports: [
     AppRoutingModule

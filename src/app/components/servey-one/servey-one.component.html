@@ -34,6 +34,6 @@
                 <p>Get In contact with Me </p> 
             </div>
         </div>
-        <button routerLink="/step-three" [disabled]="formOne.invalid" class="btn btn-next btn-next">Next</button>
+        <button (click)="setNext()" class="btn btn-next btn-next">Next</button>
     </form>
 </div>

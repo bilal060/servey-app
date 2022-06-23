@@ -2,7 +2,9 @@
 
 html, body { height: 100%; }
 body { margin: 0; font-family: 'Roboto', sans-serif;
-    font: 400 16px 'Roboto', sans-serif;
+}
+.mt-80 {
+    margin-top: 80px;
 }
 .column-left {
     position: sticky;

@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { RECAPTCHA_SETTINGS, RecaptchaFormsModule, RecaptchaModule, RecaptchaSettings } from 'ng-recaptcha';
 
 @Component({
   selector: 'app-root',

@@ -56,7 +56,7 @@ body { margin: 0; font-family: 'Roboto', sans-serif;
     justify-content: center;
 }
 .checkbox-item {
-    margin: 10px 20px !important;
+    margin: 10px 15px !important;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -174,7 +174,6 @@ body { margin: 0; font-family: 'Roboto', sans-serif;
     background-color: #3498DB;
     color: #ffffff;
 }
-
 @media (min-width: 992px){
     .col-adjust-1 {
         flex: 0 0 auto;
@@ -185,7 +184,23 @@ body { margin: 0; font-family: 'Roboto', sans-serif;
         width: 44.666666%;
     }
 }
-
+@media (max-width: 1350px ) {
+    .checkbox-item {
+        width: 145px;
+    }
+    .checkbox-group label,
+    .input-item{
+        width: 145px;
+        height: 145px;
+        border: 2px solid #3498DB;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 10px;
+        cursor: pointer;
+    }
+}
 @media (max-width: 992px) {
     .form-inner {
         margin-top: 50px;

@@ -22,7 +22,7 @@
 }
 
 .checkbox-item {
-    margin: 10px 20px;
+    margin: 10px 14px !important;
 }
 .checkbox-group label,
 .input-item{
@@ -72,6 +72,23 @@
 }
 input:active{
 border: none;
+}
+@media (max-width: 1350px ) {
+    .checkbox-item {
+        width: 145px;
+    }
+    .checkbox-group label,
+    .input-item{
+        width: 145px;
+        height: 145px;
+        border: 2px solid #3498DB;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 10px;
+        cursor: pointer;
+    }
 }
 @media screen and (max-width : 440px){
     .heading-top {

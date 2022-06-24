@@ -25,7 +25,7 @@ export class ServeyOneComponent implements OnInit {
 
   setNext() {
     localStorage.setItem("optionValue", this.radioValue);
-    this.router.navigate(['/', 'step-three'])
+    this.router.navigate(['/', 'step-two'])
   }
 
   ngOnInit(): void {

@@ -33,6 +33,9 @@
 .location-form .input-group .icon-location {
     background: url("/assets/images/location-icon.png") ;
 }
+.checkbox-item {
+    margin: 10px 15px !important;
+}
 .radio-group label {
     display: flex;
     align-items: center;
@@ -100,5 +103,22 @@
 @media (max-width: 992px) {
     .form-inner {
         margin-top: 50px;
+    }
+}
+@media (max-width: 1350px ) {
+    .checkbox-item {
+        width: 145px;
+    }
+    .checkbox-group label,
+    .input-item{
+        width: 145px;
+        height: 145px;
+        border: 2px solid #3498DB;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 10px;
+        cursor: pointer;
     }
 }
